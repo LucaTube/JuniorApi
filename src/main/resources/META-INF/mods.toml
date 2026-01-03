@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="juniorapi"
+version="1.0.0"
+displayName="Junior Animation API"
+displayURL=""
+logoFile=""
+credits="Created for LMB"
+authors="ThatLucatube"
+description='''
+A lightweight animation API for Minecraft Forge 1.20.1.
+Made to control entity animations via code without GeckoLib.
+'''
+
+[[dependencies.juniorapi]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.juniorapi]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
